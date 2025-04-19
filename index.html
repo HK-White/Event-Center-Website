@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizons Event Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57b609c410.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script> <!-- I can not get the mobile menu to display but as it is not a project requirement, I have opted
+    to leave as is for now -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav-bar">
+    <nav class="nav-bar__container nav-bar__mobile">
+      <img src="sitelogo.png" alt="Horizons Event Center Logo" class="nav-bar__logo" id="main-logo">
+      <div class="nav-bar__links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="food.html">Food</a>
+        <a href="about.html">About</a>
+      </div>
+      <a href="javaScript:void(0);" class="icon" onclick="myFunction()"></a>
+        <i class="fa-solid fa-bars nav-bar__toggle" class="nav-bar__toggle" id="hamburger"></i>
+      </a>
+      <a href="contact.html" class="nav-bar__contact" id="contact-button">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+   <main>
+    <section class="hero-box">
+      <h1 class="hero-box__title">Community Gathering. Fun For The Entire Family</h1>
+      <p class="hero-box__subtitle">Horizons Event Center is a family-friendly event center that hosts a variety of events, from concerts to festivals.<br> We are committed to providing a safe and enjoyable experience for all our guests.</p>
+      <p class="hero-box__subtitle-two">Join us for our upcoming events and experience the best of what our community has to offer!</p>
+    </section>
+   </main>
+   
+   <!-- Sidebar -->
+  <aside>
+    <section class="sidebar">
+      <h1 class="sidebar__title">Upcoming Events</h1>
+      <ul class="sidebar__events">
+        <li class="sidebar__event-item">
+          <h2>Summer Festival</h2>
+          <p>Date: July 15, 2025</p>
+          <p>Join us for a day of fun, food, and festivities!</p>
+        </li>
+        <li class="sidebar__event-item sidebar__event-item--highlighted">
+          <h2>Concert Night</h2>
+          <p>Date: August 20, 2025</p>
+          <p>Enjoy live music from local bands and artists.</p>
+        </li>
+        <li class="sidebar__event-item">
+          <h2>Community Picnic</h2>
+          <p>Date: September 10, 2025</p>
+          <p>A perfect day for families to come together and enjoy good food and company.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="location-box">
+      <h1 class="location-box__title">Find Us Easily</h1>
+      <img src="map-photo.png" alt="Map of Horizons Event Center Location" class="location-box__image">
+      <p class="location-box__address">123 32nd St, New York, NY</p>
+    </section>
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <section class="footer-content">
+      <h1 class="footer-content__copyright">Horizons Event Center © 2025, All Rights Reserved.</h1>
+      <p class="footer-content__name">Designed by Hayden White, Student At Coding Temple</p>
+      <div class="footer-content__links">
+        <a href="index.html">Homepage</a>
+        <a href="events.html">Events</a>
+        <a href="food.html">Food</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>

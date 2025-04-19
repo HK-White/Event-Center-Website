@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizons Event Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57b609c410.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="nav-bar">
+    <nav class="nav-bar__container nav-bar__mobile">
+      <img src="sitelogo.png" alt="Horizons Event Center Logo" class="nav-bar__logo" id="main-logo">
+      <div class="nav-bar__links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="food.html">Food</a>
+        <a href="about.html">About</a>
+      </div>
+      <a href="javaScript:void(0);" class="icon" onclick="myFunction()"></a>
+        <i class="fa-solid fa-bars nav-bar__toggle" class="nav-bar__toggle" id="hamburger"></i>
+      </a>
+      <a href="contact.html" class="nav-bar__contact" id="contact-button">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+   <main>
+    <section class="hero-box-contact">
+      <h1 class="hero-box-contact__title">Get In Touch With Us</h1>
+      <p class="hero-box-contact__subtitle">We are here to answer any questions you may have about our events, food, or services.<br> Feel free to reach out to us through the contact form below.</p>
+    </section>
+
+    <section class="contact-form">
+      <form action="#" method="post" class="contact-form__container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" id=""required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email@example.com" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your Message (500 limit)" maxlength="500" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+   </main>
+   
+   <!-- Sidebar -->
+  <aside>
+
+  </aside>
+
+  <!-- Footer -->
+  <footer>
+    <section class="footer-content">
+      <h1 class="footer-content__copyright">Horizons Event Center © 2025, All Rights Reserved.</h1>
+      <p class="footer-content__name">Designed by Hayden White, Student At Coding Temple</p>
+      <div class="footer-content__links">
+        <a href="index.html">Homepage</a>
+        <a href="events.html">Events</a>
+        <a href="food.html">Food</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
